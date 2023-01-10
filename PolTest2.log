@@ -1,0 +1,25 @@
+INFO    CONFIG:   Capacity=15   Ticks-Floor=5   Ticks-Door=2   Ticks-Passengers=3   CurrState=STOP      CurrFloor=1
+INFO    Time=10   Called=1 Floor=1 Dir=Up   passID=2
+INFO    Time=11   Prev State: STOP      Curr State: OPENDR    PrevFloor: 1   CurrFloor: 1
+INFO    Time=13   Prev State: OPENDR    Curr State: BOARD     PrevFloor: 1   CurrFloor: 1
+INFO    Time=13   Board=1 Floor=1 Dir=Up   passID=2
+INFO    Time=14   Prev State: BOARD     Curr State: CLOSEDR   PrevFloor: 1   CurrFloor: 1
+INFO    Time=15   Called=2 Floor=1 Dir=Up   passID=3
+INFO    Time=16   Prev State: CLOSEDR   Curr State: OPENDR    PrevFloor: 1   CurrFloor: 1
+INFO    Time=18   Prev State: OPENDR    Curr State: BOARD     PrevFloor: 1   CurrFloor: 1
+INFO    Time=18   Board=2 Floor=1 Dir=Up   passID=3
+INFO    Time=19   Called=2 Floor=1 Dir=Up   passID=4
+INFO    Time=19   Prev State: BOARD     Curr State: CLOSEDR   PrevFloor: 1   CurrFloor: 1
+INFO    Time=20   Prev State: CLOSEDR   Curr State: OPENDR    PrevFloor: 1   CurrFloor: 1
+INFO    Time=21   Prev State: OPENDR    Curr State: BOARD     PrevFloor: 1   CurrFloor: 1
+INFO    Time=21   Board=2 Floor=1 Dir=Up   passID=4
+INFO    Time=22   Prev State: BOARD     Curr State: CLOSEDR   PrevFloor: 1   CurrFloor: 1
+INFO    Time=24   Prev State: CLOSEDR   Curr State: MV1FLR    PrevFloor: 1   CurrFloor: 1
+INFO    Time=49   Prev State: MV1FLR    Curr State: OPENDR    PrevFloor: 5   CurrFloor: 6
+INFO    Time=51   Prev State: OPENDR    Curr State: OFFLD     PrevFloor: 6   CurrFloor: 6
+INFO    Time=51   Arrived=1 Floor=6 passID=2
+INFO    Time=51   Arrived=2 Floor=6 passID=3
+INFO    Time=51   Arrived=2 Floor=6 passID=4
+INFO    Time=53   Prev State: OFFLD     Curr State: CLOSEDR   PrevFloor: 6   CurrFloor: 6
+INFO    Time=55   Prev State: CLOSEDR   Curr State: STOP      PrevFloor: 6   CurrFloor: 6
+INFO    Time=55   Detected End of Simulation

@@ -1,0 +1,409 @@
+INFO    CONFIG:   Capacity=15   Ticks-Floor=5   Ticks-Door=2   Ticks-Passengers=3   CurrState=STOP      CurrFloor=1
+INFO    Time=10   Called=1 Floor=1 Dir=Up   passID=0
+INFO    Time=11   Prev State: STOP      Curr State: OPENDR    PrevFloor: 1   CurrFloor: 1
+INFO    Time=13   Prev State: OPENDR    Curr State: BOARD     PrevFloor: 1   CurrFloor: 1
+INFO    Time=13   Board=1 Floor=1 Dir=Up   passID=0
+INFO    Time=14   Prev State: BOARD     Curr State: CLOSEDR   PrevFloor: 1   CurrFloor: 1
+INFO    Time=16   Prev State: CLOSEDR   Curr State: MV1FLR    PrevFloor: 1   CurrFloor: 1
+INFO    Time=41   Prev State: MV1FLR    Curr State: OPENDR    PrevFloor: 5   CurrFloor: 6
+INFO    Time=43   Prev State: OPENDR    Curr State: OFFLD     PrevFloor: 6   CurrFloor: 6
+INFO    Time=43   Arrived=1 Floor=6 passID=0
+INFO    Time=44   Prev State: OFFLD     Curr State: CLOSEDR   PrevFloor: 6   CurrFloor: 6
+INFO    Time=46   Prev State: CLOSEDR   Curr State: STOP      PrevFloor: 6   CurrFloor: 6
+INFO    Time=50   Called=1 Floor=2 Dir=Up   passID=1
+INFO    Time=51   Prev State: STOP      Curr State: MVTOFLR   PrevFloor: 6   CurrFloor: 6
+INFO    Time=71   Prev State: MVTOFLR   Curr State: OPENDR    PrevFloor: 3   CurrFloor: 2
+INFO    Time=73   Prev State: OPENDR    Curr State: BOARD     PrevFloor: 2   CurrFloor: 2
+INFO    Time=73   Board=1 Floor=2 Dir=Up   passID=1
+INFO    Time=74   Prev State: BOARD     Curr State: CLOSEDR   PrevFloor: 2   CurrFloor: 2
+INFO    Time=76   Prev State: CLOSEDR   Curr State: MV1FLR    PrevFloor: 2   CurrFloor: 2
+INFO    Time=91   Prev State: MV1FLR    Curr State: OPENDR    PrevFloor: 4   CurrFloor: 5
+INFO    Time=93   Prev State: OPENDR    Curr State: OFFLD     PrevFloor: 5   CurrFloor: 5
+INFO    Time=93   Arrived=1 Floor=5 passID=1
+INFO    Time=94   Prev State: OFFLD     Curr State: CLOSEDR   PrevFloor: 5   CurrFloor: 5
+INFO    Time=96   Prev State: CLOSEDR   Curr State: STOP      PrevFloor: 5   CurrFloor: 5
+INFO    Time=100   Called=1 Floor=3 Dir=Down   passID=2
+INFO    Time=101   Prev State: STOP      Curr State: MVTOFLR   PrevFloor: 5   CurrFloor: 5
+INFO    Time=111   Prev State: MVTOFLR   Curr State: OPENDR    PrevFloor: 4   CurrFloor: 3
+INFO    Time=113   Prev State: OPENDR    Curr State: BOARD     PrevFloor: 3   CurrFloor: 3
+INFO    Time=113   Board=1 Floor=3 Dir=Down   passID=2
+INFO    Time=114   Prev State: BOARD     Curr State: CLOSEDR   PrevFloor: 3   CurrFloor: 3
+INFO    Time=116   Prev State: CLOSEDR   Curr State: MV1FLR    PrevFloor: 3   CurrFloor: 3
+INFO    Time=126   Prev State: MV1FLR    Curr State: OPENDR    PrevFloor: 2   CurrFloor: 1
+INFO    Time=128   Prev State: OPENDR    Curr State: OFFLD     PrevFloor: 1   CurrFloor: 1
+INFO    Time=128   Arrived=1 Floor=1 passID=2
+INFO    Time=129   Prev State: OFFLD     Curr State: CLOSEDR   PrevFloor: 1   CurrFloor: 1
+INFO    Time=131   Prev State: CLOSEDR   Curr State: STOP      PrevFloor: 1   CurrFloor: 1
+INFO    Time=140   Called=1 Floor=4 Dir=Down   passID=3
+INFO    Time=141   Prev State: STOP      Curr State: MVTOFLR   PrevFloor: 1   CurrFloor: 1
+INFO    Time=156   Prev State: MVTOFLR   Curr State: OPENDR    PrevFloor: 3   CurrFloor: 4
+INFO    Time=158   Prev State: OPENDR    Curr State: BOARD     PrevFloor: 4   CurrFloor: 4
+INFO    Time=158   Board=1 Floor=4 Dir=Down   passID=3
+INFO    Time=159   Prev State: BOARD     Curr State: CLOSEDR   PrevFloor: 4   CurrFloor: 4
+INFO    Time=161   Prev State: CLOSEDR   Curr State: MV1FLR    PrevFloor: 4   CurrFloor: 4
+INFO    Time=171   Prev State: MV1FLR    Curr State: OPENDR    PrevFloor: 3   CurrFloor: 2
+INFO    Time=173   Prev State: OPENDR    Curr State: OFFLD     PrevFloor: 2   CurrFloor: 2
+INFO    Time=173   Arrived=1 Floor=2 passID=3
+INFO    Time=174   Prev State: OFFLD     Curr State: CLOSEDR   PrevFloor: 2   CurrFloor: 2
+INFO    Time=176   Prev State: CLOSEDR   Curr State: STOP      PrevFloor: 2   CurrFloor: 2
+INFO    Time=180   Called=1 Floor=1 Dir=Up   passID=4
+INFO    Time=181   Prev State: STOP      Curr State: MVTOFLR   PrevFloor: 2   CurrFloor: 2
+INFO    Time=186   Prev State: MVTOFLR   Curr State: OPENDR    PrevFloor: 2   CurrFloor: 1
+INFO    Time=188   Prev State: OPENDR    Curr State: BOARD     PrevFloor: 1   CurrFloor: 1
+INFO    Time=188   Board=1 Floor=1 Dir=Up   passID=4
+INFO    Time=189   Prev State: BOARD     Curr State: CLOSEDR   PrevFloor: 1   CurrFloor: 1
+INFO    Time=191   Prev State: CLOSEDR   Curr State: MV1FLR    PrevFloor: 1   CurrFloor: 1
+INFO    Time=206   Prev State: MV1FLR    Curr State: OPENDR    PrevFloor: 3   CurrFloor: 4
+INFO    Time=208   Prev State: OPENDR    Curr State: OFFLD     PrevFloor: 4   CurrFloor: 4
+INFO    Time=208   Arrived=1 Floor=4 passID=4
+INFO    Time=209   Prev State: OFFLD     Curr State: CLOSEDR   PrevFloor: 4   CurrFloor: 4
+INFO    Time=211   Prev State: CLOSEDR   Curr State: STOP      PrevFloor: 4   CurrFloor: 4
+INFO    Time=220   Called=1 Floor=2 Dir=Up   passID=5
+INFO    Time=221   Prev State: STOP      Curr State: MVTOFLR   PrevFloor: 4   CurrFloor: 4
+INFO    Time=231   Prev State: MVTOFLR   Curr State: OPENDR    PrevFloor: 3   CurrFloor: 2
+INFO    Time=233   Prev State: OPENDR    Curr State: BOARD     PrevFloor: 2   CurrFloor: 2
+INFO    Time=233   Board=1 Floor=2 Dir=Up   passID=5
+INFO    Time=234   Prev State: BOARD     Curr State: CLOSEDR   PrevFloor: 2   CurrFloor: 2
+INFO    Time=236   Prev State: CLOSEDR   Curr State: MV1FLR    PrevFloor: 2   CurrFloor: 2
+INFO    Time=241   Prev State: MV1FLR    Curr State: OPENDR    PrevFloor: 2   CurrFloor: 3
+INFO    Time=243   Prev State: OPENDR    Curr State: OFFLD     PrevFloor: 3   CurrFloor: 3
+INFO    Time=243   Arrived=1 Floor=3 passID=5
+INFO    Time=244   Prev State: OFFLD     Curr State: CLOSEDR   PrevFloor: 3   CurrFloor: 3
+INFO    Time=246   Prev State: CLOSEDR   Curr State: STOP      PrevFloor: 3   CurrFloor: 3
+INFO    Time=250   Called=1 Floor=1 Dir=Up   passID=6
+INFO    Time=251   Prev State: STOP      Curr State: MVTOFLR   PrevFloor: 3   CurrFloor: 3
+INFO    Time=252   Called=1 Floor=2 Dir=Up   passID=7
+INFO    Time=252   Called=1 Floor=2 Dir=Down   passID=8
+INFO    Time=261   Prev State: MVTOFLR   Curr State: OPENDR    PrevFloor: 2   CurrFloor: 1
+INFO    Time=263   Prev State: OPENDR    Curr State: BOARD     PrevFloor: 1   CurrFloor: 1
+INFO    Time=263   Board=1 Floor=1 Dir=Up   passID=6
+INFO    Time=264   Prev State: BOARD     Curr State: CLOSEDR   PrevFloor: 1   CurrFloor: 1
+INFO    Time=266   Prev State: CLOSEDR   Curr State: MV1FLR    PrevFloor: 1   CurrFloor: 1
+INFO    Time=271   Prev State: MV1FLR    Curr State: OPENDR    PrevFloor: 1   CurrFloor: 2
+INFO    Time=273   Prev State: OPENDR    Curr State: BOARD     PrevFloor: 2   CurrFloor: 2
+INFO    Time=273   Board=1 Floor=2 Dir=Up   passID=7
+INFO    Time=274   Prev State: BOARD     Curr State: CLOSEDR   PrevFloor: 2   CurrFloor: 2
+INFO    Time=276   Prev State: CLOSEDR   Curr State: MV1FLR    PrevFloor: 2   CurrFloor: 2
+INFO    Time=286   Prev State: MV1FLR    Curr State: OPENDR    PrevFloor: 3   CurrFloor: 4
+INFO    Time=288   Prev State: OPENDR    Curr State: OFFLD     PrevFloor: 4   CurrFloor: 4
+INFO    Time=288   Arrived=1 Floor=4 passID=6
+INFO    Time=288   Arrived=1 Floor=4 passID=7
+INFO    Time=289   Prev State: OFFLD     Curr State: CLOSEDR   PrevFloor: 4   CurrFloor: 4
+INFO    Time=291   Prev State: CLOSEDR   Curr State: MV1FLR    PrevFloor: 4   CurrFloor: 4
+INFO    Time=301   Prev State: MV1FLR    Curr State: OPENDR    PrevFloor: 3   CurrFloor: 2
+INFO    Time=303   Prev State: OPENDR    Curr State: BOARD     PrevFloor: 2   CurrFloor: 2
+INFO    Time=303   Board=1 Floor=2 Dir=Down   passID=8
+INFO    Time=304   Prev State: BOARD     Curr State: CLOSEDR   PrevFloor: 2   CurrFloor: 2
+INFO    Time=306   Prev State: CLOSEDR   Curr State: MV1FLR    PrevFloor: 2   CurrFloor: 2
+INFO    Time=311   Prev State: MV1FLR    Curr State: OPENDR    PrevFloor: 2   CurrFloor: 1
+INFO    Time=313   Prev State: OPENDR    Curr State: OFFLD     PrevFloor: 1   CurrFloor: 1
+INFO    Time=313   Arrived=1 Floor=1 passID=8
+INFO    Time=314   Prev State: OFFLD     Curr State: CLOSEDR   PrevFloor: 1   CurrFloor: 1
+INFO    Time=316   Prev State: CLOSEDR   Curr State: STOP      PrevFloor: 1   CurrFloor: 1
+INFO    Time=320   Called=1 Floor=2 Dir=Up   passID=9
+INFO    Time=320   Called=1 Floor=3 Dir=Up   passID=10
+INFO    Time=320   Called=1 Floor=6 Dir=Down   passID=11
+INFO    Time=320   Called=1 Floor=5 Dir=Down   passID=12
+INFO    Time=320   Called=1 Floor=4 Dir=Down   passID=13
+INFO    Time=321   Prev State: STOP      Curr State: MVTOFLR   PrevFloor: 1   CurrFloor: 1
+INFO    Time=346   Prev State: MVTOFLR   Curr State: OPENDR    PrevFloor: 5   CurrFloor: 6
+INFO    Time=348   Prev State: OPENDR    Curr State: BOARD     PrevFloor: 6   CurrFloor: 6
+INFO    Time=348   Board=1 Floor=6 Dir=Down   passID=11
+INFO    Time=349   Prev State: BOARD     Curr State: CLOSEDR   PrevFloor: 6   CurrFloor: 6
+INFO    Time=351   Prev State: CLOSEDR   Curr State: MV1FLR    PrevFloor: 6   CurrFloor: 6
+INFO    Time=356   Prev State: MV1FLR    Curr State: OPENDR    PrevFloor: 6   CurrFloor: 5
+INFO    Time=358   Prev State: OPENDR    Curr State: BOARD     PrevFloor: 5   CurrFloor: 5
+INFO    Time=358   Board=1 Floor=5 Dir=Down   passID=12
+INFO    Time=359   Prev State: BOARD     Curr State: CLOSEDR   PrevFloor: 5   CurrFloor: 5
+INFO    Time=361   Prev State: CLOSEDR   Curr State: MV1FLR    PrevFloor: 5   CurrFloor: 5
+INFO    Time=366   Prev State: MV1FLR    Curr State: OPENDR    PrevFloor: 5   CurrFloor: 4
+INFO    Time=368   Prev State: OPENDR    Curr State: BOARD     PrevFloor: 4   CurrFloor: 4
+INFO    Time=368   Board=1 Floor=4 Dir=Down   passID=13
+INFO    Time=369   Prev State: BOARD     Curr State: CLOSEDR   PrevFloor: 4   CurrFloor: 4
+INFO    Time=371   Prev State: CLOSEDR   Curr State: MV1FLR    PrevFloor: 4   CurrFloor: 4
+INFO    Time=376   Prev State: MV1FLR    Curr State: OPENDR    PrevFloor: 4   CurrFloor: 3
+INFO    Time=378   Prev State: OPENDR    Curr State: OFFLD     PrevFloor: 3   CurrFloor: 3
+INFO    Time=378   Arrived=1 Floor=3 passID=13
+INFO    Time=379   Prev State: OFFLD     Curr State: CLOSEDR   PrevFloor: 3   CurrFloor: 3
+INFO    Time=381   Prev State: CLOSEDR   Curr State: MV1FLR    PrevFloor: 3   CurrFloor: 3
+INFO    Time=386   Prev State: MV1FLR    Curr State: OPENDR    PrevFloor: 3   CurrFloor: 2
+INFO    Time=388   Prev State: OPENDR    Curr State: OFFLD     PrevFloor: 2   CurrFloor: 2
+INFO    Time=388   Arrived=1 Floor=2 passID=12
+INFO    Time=389   Prev State: OFFLD     Curr State: CLOSEDR   PrevFloor: 2   CurrFloor: 2
+INFO    Time=391   Prev State: CLOSEDR   Curr State: MV1FLR    PrevFloor: 2   CurrFloor: 2
+INFO    Time=396   Prev State: MV1FLR    Curr State: OPENDR    PrevFloor: 2   CurrFloor: 1
+INFO    Time=398   Prev State: OPENDR    Curr State: OFFLD     PrevFloor: 1   CurrFloor: 1
+INFO    Time=398   Arrived=1 Floor=1 passID=11
+INFO    Time=399   Prev State: OFFLD     Curr State: CLOSEDR   PrevFloor: 1   CurrFloor: 1
+INFO    Time=401   Prev State: CLOSEDR   Curr State: MV1FLR    PrevFloor: 1   CurrFloor: 1
+INFO    Time=406   Prev State: MV1FLR    Curr State: OPENDR    PrevFloor: 1   CurrFloor: 2
+INFO    Time=408   Prev State: OPENDR    Curr State: BOARD     PrevFloor: 2   CurrFloor: 2
+INFO    Time=408   Board=1 Floor=2 Dir=Up   passID=9
+INFO    Time=409   Prev State: BOARD     Curr State: CLOSEDR   PrevFloor: 2   CurrFloor: 2
+INFO    Time=411   Prev State: CLOSEDR   Curr State: MV1FLR    PrevFloor: 2   CurrFloor: 2
+INFO    Time=416   Prev State: MV1FLR    Curr State: OPENDR    PrevFloor: 2   CurrFloor: 3
+INFO    Time=418   Prev State: OPENDR    Curr State: BOARD     PrevFloor: 3   CurrFloor: 3
+INFO    Time=418   Board=1 Floor=3 Dir=Up   passID=10
+INFO    Time=419   Prev State: BOARD     Curr State: CLOSEDR   PrevFloor: 3   CurrFloor: 3
+INFO    Time=421   Prev State: CLOSEDR   Curr State: MV1FLR    PrevFloor: 3   CurrFloor: 3
+INFO    Time=431   Prev State: MV1FLR    Curr State: OPENDR    PrevFloor: 4   CurrFloor: 5
+INFO    Time=433   Prev State: OPENDR    Curr State: OFFLD     PrevFloor: 5   CurrFloor: 5
+INFO    Time=433   Arrived=1 Floor=5 passID=9
+INFO    Time=434   Prev State: OFFLD     Curr State: CLOSEDR   PrevFloor: 5   CurrFloor: 5
+INFO    Time=436   Prev State: CLOSEDR   Curr State: MV1FLR    PrevFloor: 5   CurrFloor: 5
+INFO    Time=441   Prev State: MV1FLR    Curr State: OPENDR    PrevFloor: 5   CurrFloor: 6
+INFO    Time=443   Prev State: OPENDR    Curr State: OFFLD     PrevFloor: 6   CurrFloor: 6
+INFO    Time=443   Arrived=1 Floor=6 passID=10
+INFO    Time=444   Prev State: OFFLD     Curr State: CLOSEDR   PrevFloor: 6   CurrFloor: 6
+INFO    Time=446   Prev State: CLOSEDR   Curr State: STOP      PrevFloor: 6   CurrFloor: 6
+INFO    Time=450   Called=1 Floor=5 Dir=Up   passID=14
+INFO    Time=450   Called=1 Floor=3 Dir=Up   passID=15
+INFO    Time=450   Called=1 Floor=1 Dir=Up   passID=16
+INFO    Time=450   Called=1 Floor=5 Dir=Down   passID=17
+INFO    Time=450   Called=1 Floor=4 Dir=Down   passID=18
+INFO    Time=451   Prev State: STOP      Curr State: MVTOFLR   PrevFloor: 6   CurrFloor: 6
+INFO    Time=476   Prev State: MVTOFLR   Curr State: OPENDR    PrevFloor: 2   CurrFloor: 1
+INFO    Time=478   Prev State: OPENDR    Curr State: BOARD     PrevFloor: 1   CurrFloor: 1
+INFO    Time=478   Board=1 Floor=1 Dir=Up   passID=16
+INFO    Time=479   Prev State: BOARD     Curr State: CLOSEDR   PrevFloor: 1   CurrFloor: 1
+INFO    Time=481   Prev State: CLOSEDR   Curr State: MV1FLR    PrevFloor: 1   CurrFloor: 1
+INFO    Time=486   Prev State: MV1FLR    Curr State: OPENDR    PrevFloor: 1   CurrFloor: 2
+INFO    Time=488   Prev State: OPENDR    Curr State: OFFLD     PrevFloor: 2   CurrFloor: 2
+INFO    Time=488   Arrived=1 Floor=2 passID=16
+INFO    Time=489   Prev State: OFFLD     Curr State: CLOSEDR   PrevFloor: 2   CurrFloor: 2
+INFO    Time=491   Prev State: CLOSEDR   Curr State: MV1FLR    PrevFloor: 2   CurrFloor: 2
+INFO    Time=496   Prev State: MV1FLR    Curr State: OPENDR    PrevFloor: 2   CurrFloor: 3
+INFO    Time=498   Prev State: OPENDR    Curr State: BOARD     PrevFloor: 3   CurrFloor: 3
+INFO    Time=498   Board=1 Floor=3 Dir=Up   passID=15
+INFO    Time=499   Prev State: BOARD     Curr State: CLOSEDR   PrevFloor: 3   CurrFloor: 3
+INFO    Time=501   Prev State: CLOSEDR   Curr State: MV1FLR    PrevFloor: 3   CurrFloor: 3
+INFO    Time=511   Prev State: MV1FLR    Curr State: OPENDR    PrevFloor: 4   CurrFloor: 5
+INFO    Time=513   Prev State: OPENDR    Curr State: OFFLD     PrevFloor: 5   CurrFloor: 5
+INFO    Time=513   Arrived=1 Floor=5 passID=15
+INFO    Time=514   Prev State: OFFLD     Curr State: BOARD     PrevFloor: 5   CurrFloor: 5
+INFO    Time=514   Board=1 Floor=5 Dir=Up   passID=14
+INFO    Time=515   Prev State: BOARD     Curr State: CLOSEDR   PrevFloor: 5   CurrFloor: 5
+INFO    Time=517   Prev State: CLOSEDR   Curr State: MV1FLR    PrevFloor: 5   CurrFloor: 5
+INFO    Time=522   Prev State: MV1FLR    Curr State: OPENDR    PrevFloor: 5   CurrFloor: 6
+INFO    Time=524   Prev State: OPENDR    Curr State: OFFLD     PrevFloor: 6   CurrFloor: 6
+INFO    Time=524   Arrived=1 Floor=6 passID=14
+INFO    Time=525   Prev State: OFFLD     Curr State: CLOSEDR   PrevFloor: 6   CurrFloor: 6
+INFO    Time=527   Prev State: CLOSEDR   Curr State: MV1FLR    PrevFloor: 6   CurrFloor: 6
+INFO    Time=532   Prev State: MV1FLR    Curr State: OPENDR    PrevFloor: 6   CurrFloor: 5
+INFO    Time=534   Prev State: OPENDR    Curr State: BOARD     PrevFloor: 5   CurrFloor: 5
+INFO    Time=534   Board=1 Floor=5 Dir=Down   passID=17
+INFO    Time=535   Prev State: BOARD     Curr State: CLOSEDR   PrevFloor: 5   CurrFloor: 5
+INFO    Time=537   Prev State: CLOSEDR   Curr State: MV1FLR    PrevFloor: 5   CurrFloor: 5
+INFO    Time=542   Prev State: MV1FLR    Curr State: OPENDR    PrevFloor: 5   CurrFloor: 4
+INFO    Time=544   Prev State: OPENDR    Curr State: BOARD     PrevFloor: 4   CurrFloor: 4
+INFO    Time=544   Board=1 Floor=4 Dir=Down   passID=18
+INFO    Time=545   Prev State: BOARD     Curr State: CLOSEDR   PrevFloor: 4   CurrFloor: 4
+INFO    Time=547   Prev State: CLOSEDR   Curr State: MV1FLR    PrevFloor: 4   CurrFloor: 4
+INFO    Time=552   Prev State: MV1FLR    Curr State: OPENDR    PrevFloor: 4   CurrFloor: 3
+INFO    Time=554   Prev State: OPENDR    Curr State: OFFLD     PrevFloor: 3   CurrFloor: 3
+INFO    Time=554   Arrived=1 Floor=3 passID=17
+INFO    Time=555   Prev State: OFFLD     Curr State: CLOSEDR   PrevFloor: 3   CurrFloor: 3
+INFO    Time=557   Prev State: CLOSEDR   Curr State: MV1FLR    PrevFloor: 3   CurrFloor: 3
+INFO    Time=567   Prev State: MV1FLR    Curr State: OPENDR    PrevFloor: 2   CurrFloor: 1
+INFO    Time=569   Prev State: OPENDR    Curr State: OFFLD     PrevFloor: 1   CurrFloor: 1
+INFO    Time=569   Arrived=1 Floor=1 passID=18
+INFO    Time=570   Prev State: OFFLD     Curr State: CLOSEDR   PrevFloor: 1   CurrFloor: 1
+INFO    Time=572   Prev State: CLOSEDR   Curr State: STOP      PrevFloor: 1   CurrFloor: 1
+INFO    Time=580   Called=1 Floor=1 Dir=Up   passID=19
+INFO    Time=581   Prev State: STOP      Curr State: OPENDR    PrevFloor: 1   CurrFloor: 1
+INFO    Time=583   Prev State: OPENDR    Curr State: BOARD     PrevFloor: 1   CurrFloor: 1
+INFO    Time=583   Board=1 Floor=1 Dir=Up   passID=19
+INFO    Time=584   Prev State: BOARD     Curr State: CLOSEDR   PrevFloor: 1   CurrFloor: 1
+INFO    Time=586   Prev State: CLOSEDR   Curr State: MV1FLR    PrevFloor: 1   CurrFloor: 1
+INFO    Time=596   Prev State: MV1FLR    Curr State: OPENDR    PrevFloor: 2   CurrFloor: 3
+INFO    Time=598   Prev State: OPENDR    Curr State: OFFLD     PrevFloor: 3   CurrFloor: 3
+INFO    Time=598   Arrived=1 Floor=3 passID=19
+INFO    Time=599   Prev State: OFFLD     Curr State: CLOSEDR   PrevFloor: 3   CurrFloor: 3
+INFO    Time=601   Prev State: CLOSEDR   Curr State: STOP      PrevFloor: 3   CurrFloor: 3
+INFO    Time=610   Called=1 Floor=1 Dir=Up   passID=20
+INFO    Time=610   Called=1 Floor=6 Dir=Down   passID=21
+INFO    Time=611   Prev State: STOP      Curr State: MVTOFLR   PrevFloor: 3   CurrFloor: 3
+INFO    Time=621   Prev State: MVTOFLR   Curr State: OPENDR    PrevFloor: 2   CurrFloor: 1
+INFO    Time=623   Prev State: OPENDR    Curr State: BOARD     PrevFloor: 1   CurrFloor: 1
+INFO    Time=623   Board=1 Floor=1 Dir=Up   passID=20
+INFO    Time=624   Prev State: BOARD     Curr State: CLOSEDR   PrevFloor: 1   CurrFloor: 1
+INFO    Time=626   Prev State: CLOSEDR   Curr State: MV1FLR    PrevFloor: 1   CurrFloor: 1
+INFO    Time=641   Prev State: MV1FLR    Curr State: OPENDR    PrevFloor: 3   CurrFloor: 4
+INFO    Time=643   Prev State: OPENDR    Curr State: OFFLD     PrevFloor: 4   CurrFloor: 4
+INFO    Time=643   Arrived=1 Floor=4 passID=20
+INFO    Time=644   Prev State: OFFLD     Curr State: CLOSEDR   PrevFloor: 4   CurrFloor: 4
+INFO    Time=646   Prev State: CLOSEDR   Curr State: MV1FLR    PrevFloor: 4   CurrFloor: 4
+INFO    Time=656   Prev State: MV1FLR    Curr State: OPENDR    PrevFloor: 5   CurrFloor: 6
+INFO    Time=658   Prev State: OPENDR    Curr State: BOARD     PrevFloor: 6   CurrFloor: 6
+INFO    Time=658   Board=1 Floor=6 Dir=Down   passID=21
+INFO    Time=659   Prev State: BOARD     Curr State: CLOSEDR   PrevFloor: 6   CurrFloor: 6
+INFO    Time=661   Prev State: CLOSEDR   Curr State: MV1FLR    PrevFloor: 6   CurrFloor: 6
+INFO    Time=671   Prev State: MV1FLR    Curr State: OPENDR    PrevFloor: 5   CurrFloor: 4
+INFO    Time=673   Prev State: OPENDR    Curr State: OFFLD     PrevFloor: 4   CurrFloor: 4
+INFO    Time=673   Arrived=1 Floor=4 passID=21
+INFO    Time=674   Prev State: OFFLD     Curr State: CLOSEDR   PrevFloor: 4   CurrFloor: 4
+INFO    Time=676   Prev State: CLOSEDR   Curr State: STOP      PrevFloor: 4   CurrFloor: 4
+INFO    Time=680   Called=1 Floor=5 Dir=Down   passID=22
+INFO    Time=680   Called=1 Floor=2 Dir=Up   passID=23
+INFO    Time=681   Prev State: STOP      Curr State: MVTOFLR   PrevFloor: 4   CurrFloor: 4
+INFO    Time=686   Prev State: MVTOFLR   Curr State: OPENDR    PrevFloor: 4   CurrFloor: 5
+INFO    Time=688   Prev State: OPENDR    Curr State: BOARD     PrevFloor: 5   CurrFloor: 5
+INFO    Time=688   Board=1 Floor=5 Dir=Down   passID=22
+INFO    Time=689   Prev State: BOARD     Curr State: CLOSEDR   PrevFloor: 5   CurrFloor: 5
+INFO    Time=691   Prev State: CLOSEDR   Curr State: MV1FLR    PrevFloor: 5   CurrFloor: 5
+INFO    Time=711   Prev State: MV1FLR    Curr State: OPENDR    PrevFloor: 2   CurrFloor: 1
+INFO    Time=713   Prev State: OPENDR    Curr State: OFFLD     PrevFloor: 1   CurrFloor: 1
+INFO    Time=713   Arrived=1 Floor=1 passID=22
+INFO    Time=714   Prev State: OFFLD     Curr State: CLOSEDR   PrevFloor: 1   CurrFloor: 1
+INFO    Time=716   Prev State: CLOSEDR   Curr State: MV1FLR    PrevFloor: 1   CurrFloor: 1
+INFO    Time=721   Prev State: MV1FLR    Curr State: OPENDR    PrevFloor: 1   CurrFloor: 2
+INFO    Time=723   Prev State: OPENDR    Curr State: BOARD     PrevFloor: 2   CurrFloor: 2
+INFO    Time=723   Board=1 Floor=2 Dir=Up   passID=23
+INFO    Time=724   Prev State: BOARD     Curr State: CLOSEDR   PrevFloor: 2   CurrFloor: 2
+INFO    Time=726   Prev State: CLOSEDR   Curr State: MV1FLR    PrevFloor: 2   CurrFloor: 2
+INFO    Time=731   Prev State: MV1FLR    Curr State: OPENDR    PrevFloor: 2   CurrFloor: 3
+INFO    Time=733   Prev State: OPENDR    Curr State: OFFLD     PrevFloor: 3   CurrFloor: 3
+INFO    Time=733   Arrived=1 Floor=3 passID=23
+INFO    Time=734   Prev State: OFFLD     Curr State: CLOSEDR   PrevFloor: 3   CurrFloor: 3
+INFO    Time=736   Prev State: CLOSEDR   Curr State: STOP      PrevFloor: 3   CurrFloor: 3
+INFO    Time=740   Called=1 Floor=5 Dir=Down   passID=24
+INFO    Time=740   Called=1 Floor=1 Dir=Up   passID=25
+INFO    Time=741   Prev State: STOP      Curr State: MVTOFLR   PrevFloor: 3   CurrFloor: 3
+INFO    Time=751   Prev State: MVTOFLR   Curr State: OPENDR    PrevFloor: 2   CurrFloor: 1
+INFO    Time=753   Prev State: OPENDR    Curr State: BOARD     PrevFloor: 1   CurrFloor: 1
+INFO    Time=753   Board=1 Floor=1 Dir=Up   passID=25
+INFO    Time=754   Prev State: BOARD     Curr State: CLOSEDR   PrevFloor: 1   CurrFloor: 1
+INFO    Time=756   Prev State: CLOSEDR   Curr State: MV1FLR    PrevFloor: 1   CurrFloor: 1
+INFO    Time=766   Prev State: MV1FLR    Curr State: OPENDR    PrevFloor: 2   CurrFloor: 3
+INFO    Time=768   Prev State: OPENDR    Curr State: OFFLD     PrevFloor: 3   CurrFloor: 3
+INFO    Time=768   Arrived=1 Floor=3 passID=25
+INFO    Time=769   Prev State: OFFLD     Curr State: CLOSEDR   PrevFloor: 3   CurrFloor: 3
+INFO    Time=771   Prev State: CLOSEDR   Curr State: MV1FLR    PrevFloor: 3   CurrFloor: 3
+INFO    Time=781   Prev State: MV1FLR    Curr State: OPENDR    PrevFloor: 4   CurrFloor: 5
+INFO    Time=783   Prev State: OPENDR    Curr State: BOARD     PrevFloor: 5   CurrFloor: 5
+INFO    Time=783   Board=1 Floor=5 Dir=Down   passID=24
+INFO    Time=784   Prev State: BOARD     Curr State: CLOSEDR   PrevFloor: 5   CurrFloor: 5
+INFO    Time=786   Prev State: CLOSEDR   Curr State: MV1FLR    PrevFloor: 5   CurrFloor: 5
+INFO    Time=796   Prev State: MV1FLR    Curr State: OPENDR    PrevFloor: 4   CurrFloor: 3
+INFO    Time=798   Prev State: OPENDR    Curr State: OFFLD     PrevFloor: 3   CurrFloor: 3
+INFO    Time=798   Arrived=1 Floor=3 passID=24
+INFO    Time=799   Prev State: OFFLD     Curr State: CLOSEDR   PrevFloor: 3   CurrFloor: 3
+INFO    Time=801   Prev State: CLOSEDR   Curr State: STOP      PrevFloor: 3   CurrFloor: 3
+INFO    Time=810   Called=1 Floor=3 Dir=Up   passID=26
+INFO    Time=810   Called=1 Floor=1 Dir=Up   passID=27
+INFO    Time=811   Prev State: STOP      Curr State: OPENDR    PrevFloor: 3   CurrFloor: 3
+INFO    Time=813   Prev State: OPENDR    Curr State: BOARD     PrevFloor: 3   CurrFloor: 3
+INFO    Time=813   Board=1 Floor=3 Dir=Up   passID=26
+INFO    Time=814   Prev State: BOARD     Curr State: CLOSEDR   PrevFloor: 3   CurrFloor: 3
+INFO    Time=816   Prev State: CLOSEDR   Curr State: MV1FLR    PrevFloor: 3   CurrFloor: 3
+INFO    Time=826   Prev State: MV1FLR    Curr State: OPENDR    PrevFloor: 4   CurrFloor: 5
+INFO    Time=828   Prev State: OPENDR    Curr State: OFFLD     PrevFloor: 5   CurrFloor: 5
+INFO    Time=828   Arrived=1 Floor=5 passID=26
+INFO    Time=829   Prev State: OFFLD     Curr State: CLOSEDR   PrevFloor: 5   CurrFloor: 5
+INFO    Time=831   Prev State: CLOSEDR   Curr State: MV1FLR    PrevFloor: 5   CurrFloor: 5
+INFO    Time=851   Prev State: MV1FLR    Curr State: OPENDR    PrevFloor: 2   CurrFloor: 1
+INFO    Time=853   Prev State: OPENDR    Curr State: BOARD     PrevFloor: 1   CurrFloor: 1
+INFO    Time=853   Board=1 Floor=1 Dir=Up   passID=27
+INFO    Time=854   Prev State: BOARD     Curr State: CLOSEDR   PrevFloor: 1   CurrFloor: 1
+INFO    Time=856   Prev State: CLOSEDR   Curr State: MV1FLR    PrevFloor: 1   CurrFloor: 1
+INFO    Time=876   Prev State: MV1FLR    Curr State: OPENDR    PrevFloor: 4   CurrFloor: 5
+INFO    Time=878   Prev State: OPENDR    Curr State: OFFLD     PrevFloor: 5   CurrFloor: 5
+INFO    Time=878   Arrived=1 Floor=5 passID=27
+INFO    Time=879   Prev State: OFFLD     Curr State: CLOSEDR   PrevFloor: 5   CurrFloor: 5
+INFO    Time=881   Prev State: CLOSEDR   Curr State: STOP      PrevFloor: 5   CurrFloor: 5
+INFO    Time=890   Called=1 Floor=5 Dir=Down   passID=28
+INFO    Time=890   Called=1 Floor=1 Dir=Up   passID=29
+INFO    Time=890   Called=1 Floor=2 Dir=Up   passID=30
+INFO    Time=891   Prev State: STOP      Curr State: OPENDR    PrevFloor: 5   CurrFloor: 5
+INFO    Time=893   Prev State: OPENDR    Curr State: BOARD     PrevFloor: 5   CurrFloor: 5
+INFO    Time=893   Board=1 Floor=5 Dir=Down   passID=28
+INFO    Time=894   Prev State: BOARD     Curr State: CLOSEDR   PrevFloor: 5   CurrFloor: 5
+INFO    Time=896   Prev State: CLOSEDR   Curr State: MV1FLR    PrevFloor: 5   CurrFloor: 5
+INFO    Time=911   Prev State: MV1FLR    Curr State: OPENDR    PrevFloor: 3   CurrFloor: 2
+INFO    Time=913   Prev State: OPENDR    Curr State: OFFLD     PrevFloor: 2   CurrFloor: 2
+INFO    Time=913   Arrived=1 Floor=2 passID=28
+INFO    Time=914   Prev State: OFFLD     Curr State: CLOSEDR   PrevFloor: 2   CurrFloor: 2
+INFO    Time=916   Prev State: CLOSEDR   Curr State: MV1FLR    PrevFloor: 2   CurrFloor: 2
+INFO    Time=921   Prev State: MV1FLR    Curr State: OPENDR    PrevFloor: 2   CurrFloor: 1
+INFO    Time=923   Prev State: OPENDR    Curr State: BOARD     PrevFloor: 1   CurrFloor: 1
+INFO    Time=923   Board=1 Floor=1 Dir=Up   passID=29
+INFO    Time=924   Prev State: BOARD     Curr State: CLOSEDR   PrevFloor: 1   CurrFloor: 1
+INFO    Time=926   Prev State: CLOSEDR   Curr State: MV1FLR    PrevFloor: 1   CurrFloor: 1
+INFO    Time=931   Prev State: MV1FLR    Curr State: OPENDR    PrevFloor: 1   CurrFloor: 2
+INFO    Time=933   Prev State: OPENDR    Curr State: BOARD     PrevFloor: 2   CurrFloor: 2
+INFO    Time=933   Board=1 Floor=2 Dir=Up   passID=30
+INFO    Time=934   Prev State: BOARD     Curr State: CLOSEDR   PrevFloor: 2   CurrFloor: 2
+INFO    Time=936   Prev State: CLOSEDR   Curr State: MV1FLR    PrevFloor: 2   CurrFloor: 2
+INFO    Time=946   Prev State: MV1FLR    Curr State: OPENDR    PrevFloor: 3   CurrFloor: 4
+INFO    Time=948   Prev State: OPENDR    Curr State: OFFLD     PrevFloor: 4   CurrFloor: 4
+INFO    Time=948   Arrived=1 Floor=4 passID=29
+INFO    Time=948   Arrived=1 Floor=4 passID=30
+INFO    Time=949   Prev State: OFFLD     Curr State: CLOSEDR   PrevFloor: 4   CurrFloor: 4
+INFO    Time=951   Prev State: CLOSEDR   Curr State: STOP      PrevFloor: 4   CurrFloor: 4
+INFO    Time=960   Called=1 Floor=4 Dir=Up   passID=31
+INFO    Time=960   Called=1 Floor=5 Dir=Down   passID=32
+INFO    Time=960   Called=1 Floor=3 Dir=Down   passID=33
+INFO    Time=961   Prev State: STOP      Curr State: OPENDR    PrevFloor: 4   CurrFloor: 4
+INFO    Time=963   Prev State: OPENDR    Curr State: BOARD     PrevFloor: 4   CurrFloor: 4
+INFO    Time=963   Board=1 Floor=4 Dir=Up   passID=31
+INFO    Time=964   Prev State: BOARD     Curr State: CLOSEDR   PrevFloor: 4   CurrFloor: 4
+INFO    Time=966   Prev State: CLOSEDR   Curr State: MV1FLR    PrevFloor: 4   CurrFloor: 4
+INFO    Time=976   Prev State: MV1FLR    Curr State: OPENDR    PrevFloor: 5   CurrFloor: 6
+INFO    Time=978   Prev State: OPENDR    Curr State: OFFLD     PrevFloor: 6   CurrFloor: 6
+INFO    Time=978   Arrived=1 Floor=6 passID=31
+INFO    Time=979   Prev State: OFFLD     Curr State: CLOSEDR   PrevFloor: 6   CurrFloor: 6
+INFO    Time=981   Prev State: CLOSEDR   Curr State: MV1FLR    PrevFloor: 6   CurrFloor: 6
+INFO    Time=986   Prev State: MV1FLR    Curr State: OPENDR    PrevFloor: 6   CurrFloor: 5
+INFO    Time=988   Prev State: OPENDR    Curr State: BOARD     PrevFloor: 5   CurrFloor: 5
+INFO    Time=988   Board=1 Floor=5 Dir=Down   passID=32
+INFO    Time=989   Prev State: BOARD     Curr State: CLOSEDR   PrevFloor: 5   CurrFloor: 5
+INFO    Time=991   Prev State: CLOSEDR   Curr State: MV1FLR    PrevFloor: 5   CurrFloor: 5
+INFO    Time=1001   Prev State: MV1FLR    Curr State: OPENDR    PrevFloor: 4   CurrFloor: 3
+INFO    Time=1003   Prev State: OPENDR    Curr State: BOARD     PrevFloor: 3   CurrFloor: 3
+INFO    Time=1003   Board=1 Floor=3 Dir=Down   passID=33
+INFO    Time=1004   Prev State: BOARD     Curr State: CLOSEDR   PrevFloor: 3   CurrFloor: 3
+INFO    Time=1006   Prev State: CLOSEDR   Curr State: MV1FLR    PrevFloor: 3   CurrFloor: 3
+INFO    Time=1011   Prev State: MV1FLR    Curr State: OPENDR    PrevFloor: 3   CurrFloor: 2
+INFO    Time=1013   Prev State: OPENDR    Curr State: OFFLD     PrevFloor: 2   CurrFloor: 2
+INFO    Time=1013   Arrived=1 Floor=2 passID=32
+INFO    Time=1014   Prev State: OFFLD     Curr State: CLOSEDR   PrevFloor: 2   CurrFloor: 2
+INFO    Time=1016   Prev State: CLOSEDR   Curr State: MV1FLR    PrevFloor: 2   CurrFloor: 2
+INFO    Time=1021   Prev State: MV1FLR    Curr State: OPENDR    PrevFloor: 2   CurrFloor: 1
+INFO    Time=1023   Prev State: OPENDR    Curr State: OFFLD     PrevFloor: 1   CurrFloor: 1
+INFO    Time=1023   Arrived=1 Floor=1 passID=33
+INFO    Time=1024   Prev State: OFFLD     Curr State: CLOSEDR   PrevFloor: 1   CurrFloor: 1
+INFO    Time=1026   Prev State: CLOSEDR   Curr State: STOP      PrevFloor: 1   CurrFloor: 1
+INFO    Time=1030   Called=1 Floor=1 Dir=Up   passID=34
+INFO    Time=1031   Prev State: STOP      Curr State: OPENDR    PrevFloor: 1   CurrFloor: 1
+INFO    Time=1033   Prev State: OPENDR    Curr State: BOARD     PrevFloor: 1   CurrFloor: 1
+INFO    Time=1033   Board=1 Floor=1 Dir=Up   passID=34
+INFO    Time=1034   Prev State: BOARD     Curr State: CLOSEDR   PrevFloor: 1   CurrFloor: 1
+INFO    Time=1036   Prev State: CLOSEDR   Curr State: MV1FLR    PrevFloor: 1   CurrFloor: 1
+INFO    Time=1051   Prev State: MV1FLR    Curr State: OPENDR    PrevFloor: 3   CurrFloor: 4
+INFO    Time=1053   Prev State: OPENDR    Curr State: OFFLD     PrevFloor: 4   CurrFloor: 4
+INFO    Time=1053   Arrived=1 Floor=4 passID=34
+INFO    Time=1054   Prev State: OFFLD     Curr State: CLOSEDR   PrevFloor: 4   CurrFloor: 4
+INFO    Time=1056   Prev State: CLOSEDR   Curr State: STOP      PrevFloor: 4   CurrFloor: 4
+INFO    Time=1060   Called=1 Floor=4 Dir=Down   passID=35
+INFO    Time=1060   Called=1 Floor=4 Dir=Up   passID=36
+INFO    Time=1061   Prev State: STOP      Curr State: OPENDR    PrevFloor: 4   CurrFloor: 4
+INFO    Time=1063   Prev State: OPENDR    Curr State: BOARD     PrevFloor: 4   CurrFloor: 4
+INFO    Time=1063   Board=1 Floor=4 Dir=Up   passID=36
+INFO    Time=1064   Prev State: BOARD     Curr State: CLOSEDR   PrevFloor: 4   CurrFloor: 4
+INFO    Time=1066   Prev State: CLOSEDR   Curr State: MV1FLR    PrevFloor: 4   CurrFloor: 4
+INFO    Time=1076   Prev State: MV1FLR    Curr State: OPENDR    PrevFloor: 5   CurrFloor: 6
+INFO    Time=1078   Prev State: OPENDR    Curr State: OFFLD     PrevFloor: 6   CurrFloor: 6
+INFO    Time=1078   Arrived=1 Floor=6 passID=36
+INFO    Time=1079   Prev State: OFFLD     Curr State: CLOSEDR   PrevFloor: 6   CurrFloor: 6
+INFO    Time=1081   Prev State: CLOSEDR   Curr State: MV1FLR    PrevFloor: 6   CurrFloor: 6
+INFO    Time=1091   Prev State: MV1FLR    Curr State: OPENDR    PrevFloor: 5   CurrFloor: 4
+INFO    Time=1093   Prev State: OPENDR    Curr State: BOARD     PrevFloor: 4   CurrFloor: 4
+INFO    Time=1093   Board=1 Floor=4 Dir=Down   passID=35
+INFO    Time=1094   Prev State: BOARD     Curr State: CLOSEDR   PrevFloor: 4   CurrFloor: 4
+INFO    Time=1096   Prev State: CLOSEDR   Curr State: MV1FLR    PrevFloor: 4   CurrFloor: 4
+INFO    Time=1111   Prev State: MV1FLR    Curr State: OPENDR    PrevFloor: 2   CurrFloor: 1
+INFO    Time=1113   Prev State: OPENDR    Curr State: OFFLD     PrevFloor: 1   CurrFloor: 1
+INFO    Time=1113   Arrived=1 Floor=1 passID=35
+INFO    Time=1114   Prev State: OFFLD     Curr State: CLOSEDR   PrevFloor: 1   CurrFloor: 1
+INFO    Time=1116   Prev State: CLOSEDR   Curr State: STOP      PrevFloor: 1   CurrFloor: 1
+INFO    Time=1117   Detected End of Simulation

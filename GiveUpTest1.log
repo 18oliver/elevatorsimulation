@@ -1,0 +1,9 @@
+INFO    CONFIG:   Capacity=15   Ticks-Floor=5   Ticks-Door=2   Ticks-Passengers=3   CurrState=STOP      CurrFloor=1
+INFO    Time=10   Called=5 Floor=6 Dir=Down   passID=0
+INFO    Time=11   Prev State: STOP      Curr State: MVTOFLR   PrevFloor: 1   CurrFloor: 1
+INFO    Time=36   Prev State: MVTOFLR   Curr State: OPENDR    PrevFloor: 5   CurrFloor: 6
+INFO    Time=38   Prev State: OPENDR    Curr State: BOARD     PrevFloor: 6   CurrFloor: 6
+INFO    Time=38   GaveUp=5 Floor=6 Dir=Down   passID=0
+INFO    Time=39   Prev State: BOARD     Curr State: CLOSEDR   PrevFloor: 6   CurrFloor: 6
+INFO    Time=41   Prev State: CLOSEDR   Curr State: STOP      PrevFloor: 6   CurrFloor: 6
+INFO    Time=41   Detected End of Simulation
